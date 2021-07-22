@@ -1,0 +1,122 @@
+* {box-sizing:border-box}
+.container-skills{
+    margin-left: 2rem;
+    color:black;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+.container-skills h1{
+    color:red;
+    padding-bottom: 0;
+    text-align: center;
+    padding-top: 1rem;
+}
+  
+.main{
+height: 100vh;
+width: 100vw;
+background-color: #d5fefd;
+background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+/*background-image: url("https://www.chieflearningofficer.com/wp-content/uploads/sites/3/beans/images/CO_0808_Microlearning-8b38574.jpg");
+background-repeat: no-repeat;
+background-size: cover;*/
+
+}
+  .skills {
+      margin-bottom: 0;
+   text-align: right;
+    padding-top: 3px;
+    
+    color: white;
+    font-size: 0.8rem;
+  } 
+  .html {width: 90%; background-color: #207a56; border-radius: 2rem;}
+  .css {width: 80%; background-color: #2196F3;border-radius: 2rem;}
+.js {width: 75%; background-color: #f44336;border-radius: 2rem;}
+.php {width: 70%; background-color: #808080;border-radius: 2rem;}
+.react {width: 70%; background-color: crimson;border-radius: 2rem;}
+
+.container-edu{
+
+    margin: 4rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: .5rem;
+    margin-top: 1rem;
+}
+ .container-edu h3{
+    font-size: 1.5rem;
+    padding-left: .2rem;
+    margin-left: .2rem;
+    
+}
+/*{
+    font-size: 1.2rem;
+    padding-left: .2rem;
+    margin-left: .2rem;
+*/
+
+.left{
+    width: 300px;
+    height: 180px;
+    background-color: #ffcfdf;
+background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    text-align: center;
+    float: left;
+    padding-top: 1rem;
+    box-shadow: 0px 4px 10px rgba(201,133,133);
+flex-wrap: wrap;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.right{
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    border-radius: 1rem;
+    float: left;
+    flex-wrap: wrap;
+    background-color: #ffcfdf;
+background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    padding-top: 1rem;
+    box-shadow: 0px 4px 10px rgba(201,133,133);
+
+}
+.center{
+    width:300px;
+    height: 190px;
+    text-align: center;
+    border-radius: 1rem;
+     padding-top: 1rem;
+     float: left;
+     box-shadow: 0px 4px 10px rgb(201, 133, 133);
+flex-wrap: wrap;
+     background-color: #ffcfdf;
+     background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+}
+@media(max-width:768px){
+    .container-edu{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        height: 50%;
+        
+    }
+    
+}
+  @media only screen and (max-width:768px){
+    .left,.center,.right{
+        margin: 0;
+        width: 100%;
+       flex-direction: column;
+       
+    }
+}
